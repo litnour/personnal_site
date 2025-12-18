@@ -1,0 +1,51 @@
+/* Harmonisation des couleurs - Vert Success */
+:root {
+    --brand-green: #198754; 
+}
+
+/* Bouton Home Actif */
+.nav-pills .nav-link.active {
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+}
+
+/* Liens de navigation au survol */
+.nav-link:hover {
+    color: var(--brand-green) !important;
+}
+
+/* Image de profil stylisée */
+.img-profile {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 3px solid var(--brand-green);
+    object-fit: cover;
+}
+
+/* Ajustement des icônes features */
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+}
+
+/* Liens du footer au survol */
+.text-body-secondary:hover {
+    filter: opacity(0.7);
+}
+/* Change le fond du bouton "Home" (actif) en vert */
+.nav-pills .nav-link.active {
+    background-color: #198754 !important; /* Vert success ade Bootstrap */
+    border-color: #198754 !important;
+    color: white !important;
+}
+
+/* Change la couleur des liens "Services", "About", etc., au survol */
+.nav-link:hover {
+    color: #198754 !important;
+}
+
+/* Si vous voulez que les liens non-actifs soient gris clair plutôt que bleu */
+.nav-link {
+    color: #adb5bd; /* Gris Bootstrap */
+}
